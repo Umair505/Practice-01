@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    color: rgb(244, 234, 234);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+
+}
+header{
+    background-image: url("./images/AdobeStock_710335588_Preview-transformed.jpeg");
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 50px;
+}
+.menu{
+    display: flex;
+}
+.item{
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.item:hover{
+    color: rgb(1, 1, 1);
+    background-color: aqua;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px;
+}
+.banner-left{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.banner-img{
+    width: 400px;
+    padding-bottom: 0px;
+    
+}
+.more{
+    background-color: rgb(124, 124, 125);
+    cursor: pointer;
+}
+.out{
+    color: rgb(220, 14, 14);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+    background-color: rgb(247, 242, 242);
+}
+.box-icon{
+    width: 100px;
+}
+.service{
+    align-items: center;
+}
+.line{
+    display: block;
+    height: 60px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service-title{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.s-d{
+    text-align:center ;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.box1{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 3px solid;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: rgb(147, 139, 139);
+}
+.service-box{
+    display: flex;
+    width: 1200px;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap:wrap ;
+    margin: auto;
+    justify-content: center;
+}
+.left-img{
+    margin-left: 100px;
+    width: 550px;
+}
+.text-section{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.text-btn{
+    margin-left: 50px;
+    padding: 20px;
+
+}
+.logo-img{
+    padding-top:20px ;
+    padding-bottom: 10px ;
+}
